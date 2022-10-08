@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/style.css">
+    <title>My Super Todo List</title>
+</head>
+<body>
+    <div class="header">
+        <h1 class="header-item">My Super Todo List</h1>
+    </div>
+    <div class="main">
+        <form autocomplete="off">
+            <label>
+                <input id="new-todo" name="todo" type="text" placeholder="New todo">
+            </label>
+            <select name="user" id="user-todo">
+                <option disabled selected>Select User</option>
+            </select>
+            <button>Add todo</button>
+        </form>
+        <ul id="todo-list"></ul>
+    </div>
+    <script src="/src/app.js"></script>
+</body>
+</html>
